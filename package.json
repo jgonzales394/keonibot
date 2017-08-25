@@ -1,0 +1,22 @@
+{
+  "name": "keonibot",
+  "version": "1.0.0",
+  "description": "This is a Twitch Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonzales394/keonibot.git"
+  },
+  "author": "John Gonzales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgonzales394/keonibot/issues"
+  },
+  "homepage": "https://github.com/jgonzales394/keonibot#readme",
+  "dependencies": {
+    "tmi.js": "^1.2.1"
+  }
+}
