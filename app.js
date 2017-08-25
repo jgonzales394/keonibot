@@ -3,6 +3,7 @@ var consts = require('./kappas');
 
 var users = ["takarita324"];
 var bc = users[0];
+var oauth = require('./Oauth');
 
 var options ={
   options:{
@@ -14,7 +15,7 @@ var options ={
   },
   identity:{
     username: "keonibot",
-    password: "oauth:ov6hqddafha7mmksmgj4woprlhyrxc"
+    password: oath.password
   },
   channels: users
 };
